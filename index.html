@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fruit Burst</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN with daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Internal/Embedded Styles -->
+  <style>
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
+
+  <!-- Custom Tailwind Classes -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-color': '#F85559',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body class="font-lato">
+  <!-- ============================= Header Section ========================= -->
+  <header class="max-w-[1440px] mx-auto px-5 lg:px-0">
+    <!-- Navbar Section -->
+    <nav class="lg:bg-primary-color rounded-full px-12">
+      <div class="navbar lg:py-8 justify-between px-0">
+        <div class="navbar-start hidden lg:block">
+          <ul class="menu menu-horizontal gap-5 p-0 text-lg text-white font-medium">
+            <li><a class="px-0.5 py-1">Home</a></li>
+            <li><a class="px-0.5 py-1">About Us</a></li>
+            <li><a class="px-0.5 py-1">Shop</a></li>
+            <li><a class="px-0.5 py-1">All Fruits</a></li>
+          </ul>
+        </div>
+        <div class="navbar-center">
+          <a href="" class="flex items-center normal-case text-xl lg:text-4xl font-bold lg:text-white gap-4 "> <img
+              src="./images/logo.png" alt="">Fruit Burst</a>
+        </div>
+        <div class="navbar-end">
+          <div class="form-control hidden lg:block relative">
+            <input type="text" placeholder="Search here" class="input border-0 rounded-full lg:w-80 h-14 md:w-auto" />
+            <div class="absolute top-4 right-4">
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="w-6 h-6">
+                  <path fill-rule="evenodd"
+                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                    clip-rule="evenodd" />
+                </svg> </a>
+            </div>
+          </div>
+          <div class="dropdown dropdown-end lg:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd"
+                  d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+                  clip-rule="evenodd" />
+              </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+
+  </header>
+
+  <!-- ============================= Main Section ========================== -->
+
+  <!-- ===================== Footer Section =============================== -->
 
 </body>
 
