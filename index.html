@@ -240,7 +240,7 @@
           <figure class="px-24 md:px-16 lg:px-10 pt-12">
             <img src="./images/fruit6.png" alt="Apple" class="rounded-xl" />
           </figure>
-          <div class="card-body items-center text-center gap-6">
+          <div class="card-body px-2 items-center text-center gap-6">
             <h2 class="card-title text-secondary-color text-2xl font-bold">12.90$ - 18.85$</h2>
             <div class="divider my-0"></div>
             <p class="text-third-color text-base font-medium ">Apples</p>
@@ -258,7 +258,50 @@
               <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-2" />
             </div>
             <div class="card-actions">
-              <a href="" class="text-lg text-primary-color font-bold">Details</a>
+              <!-- ========================== Modal-1 of Card-1 ================ -->
+              <button class="btn btn-ghost capitalize text-lg text-primary-color font-bold"
+                onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box">
+                  <div class="card">
+                    <figure class="px-24 md:px-16 lg:px-10 ">
+                      <img src="./images/fruit6.png" alt="Apples" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center gap-6">
+                      <h2 class="card-title text-secondary-color text-2xl font-bold">Apples</h2>
+                      <p class="text-third-color text-base font-medium ">Professional employees are there for you to
+                        pick the most amazing and fresh fruits.</p>
+                      <div class="rating rating-md rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10"
+                          class="bg-primary-color mask mask-star-2 mask-half-2 mr-2" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-1"
+                          checked />
+                        <input type="radio" name="rating-10"
+                          class="bg-primary-color mask mask-star-2 mask-half-2 mr-2" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10"
+                          class="bg-primary-color mask mask-star-2 mask-half-2 mr-2" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10"
+                          class="bg-primary-color mask mask-star-2 mask-half-2 mr-2" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-primary-color mask mask-star-2 mask-half-2" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-action justify-center mt-0">
+                    <form method="dialog">
+                      <button
+                        class="btn btn-ghost text-primary-color border-2 border-primary-color mr-8 ">Close</button>
+                      <button
+                        class="btn bg-primary-color border-0 text-lg md:text-xl font-bold lg:font-extrabold capitalize text-[#FFF] hover:text-primary-color">Buy
+                        Now</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
             </div>
           </div>
         </div>
@@ -363,13 +406,13 @@
           </div>
 
           <!-- Members of Team -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10 lg:gap-24">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10 lg:gap-20">
             <!-- Member-1 -->
             <div class="card">
-              <figure class="px-10 pt-10">
+              <figure class="px-5 pt-10">
                 <img src="./images/member1.png" alt="member1" class="rounded-xl" />
               </figure>
-              <div class="card-body items-center text-center">
+              <div class="card-body px-2 items-center text-center">
                 <h2 class="card-title text-2xl font-bold">Awlad Hossain</h2>
                 <p class="text-base font-medium">Fruits Expert</p>
                 <div class="flex gap-3">
@@ -381,10 +424,10 @@
             </div>
             <!-- Merber-2 -->
             <div class="card">
-              <figure class="px-10 pt-10">
+              <figure class="px-5 pt-10">
                 <img src="./images/member2.png" alt="member2" class="rounded-xl" />
               </figure>
-              <div class="card-body items-center text-center">
+              <div class="card-body px-2 items-center text-center">
                 <h2 class="card-title text-2xl font-bold">Safia Chowdhury</h2>
                 <p class="text-base font-medium">Fruits Expert</p>
                 <div class="flex gap-3">
@@ -396,10 +439,10 @@
             </div>
             <!-- Member-3 -->
             <div class="card">
-              <figure class="px-10 pt-10">
+              <figure class="px-5 pt-10">
                 <img src="./images/member3.png" alt="member3" class="rounded-xl" />
               </figure>
-              <div class="card-body items-center text-center">
+              <div class="card-body px-2 items-center text-center">
                 <h2 class="card-title text-2xl font-bold">Rokib Hossain</h2>
                 <p class="text-base font-medium">Fruits Expert</p>
                 <div class="flex gap-3">
@@ -411,10 +454,10 @@
             </div>
             <!-- card-4 -->
             <div class="card">
-              <figure class="px-10 pt-10">
+              <figure class="px-15 pt-10">
                 <img src="./images/member4.png" alt="member4" class="rounded-xl" />
               </figure>
-              <div class="card-body items-center text-center">
+              <div class="card-body px-2 items-center text-center">
                 <h2 class="card-title text-2xl font-bold">Chaity</h2>
                 <p class="text-base font-medium">Fruits Expert</p>
                 <div class="flex gap-3">
