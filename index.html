@@ -29,6 +29,8 @@
         extend: {
           colors: {
             'primary-color': '#F85559',
+            'secondary-color': '#121212',
+            'third-color': 'rgba(18, 18, 18, 0.6)',
           }
         }
       }
@@ -88,7 +90,7 @@
     </nav>
 
     <!-- Banner Section -->
-    <section>
+    <section class="my-14">
       <div class="carousel w-full bg-black rounded-lg ">
 
         <!-- Slide-1 -->
@@ -157,12 +159,81 @@
             <a href="#slide1" class="btn btn-circle bg-black border-0 text-white hover:text-primary-color">❯</a>
           </div>
         </div>
-
       </div>
     </section>
   </header>
-
   <!-- ============================= Main Section ========================== -->
+  <main class="max-w-[1440px] mx-auto px-5 lg:px-0">
+
+    <!-- Deal Of the day section -->
+    <section>
+      <div
+        class="flex flex-col lg:flex-row justify-between px-8 md:px-16 lg:px-0 items-center gap-5 md:gap-7 lg:gap-10">
+        <div class="flex-1 space-y-2 md:space-y-4 lg:space-y-6 text-center lg:text-left">
+          <h2 class="text-secondary-color text-xl md:text-3xl lg:text-5xl font-extrabold">Deal of the day</h2>
+          <p class="text-third-color text-sm md:text-base font-medium  lg:max-w-full">Contrary to popular
+            belief, is not
+            simply
+            random text. It
+            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+        <div class="flex-1">
+          <div class="grid grid-flow-col gap-2 md:gap-4 lg:gap-6 text-center auto-cols-max justify-end">
+            <div class="flex flex-col text-third-color text-xs lg:text-base font-medium gap-2">
+              <span class="countdown text-secondary-color text-2xl md:text-4xl lg:text-5xl font-extrabold">
+                <span style="--value:29;"></span>
+              </span>
+              Days
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 md:mt-2 lg:mt-3 text-third-color">
+              <path fill-rule="evenodd"
+                d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                clip-rule="evenodd" />
+            </svg>
+            <div class="flex flex-col text-third-color text-xs lg:text-base font-medium gap-2">
+              <span class="countdown text-secondary-color text-2xl md:text-4xl lg:text-5xl font-extrabold">
+                <span style="--value:15;"></span>
+              </span>
+              Hours
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 md:mt-2 lg:mt-3 text-third-color">
+              <path fill-rule="evenodd"
+                d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                clip-rule="evenodd" />
+            </svg>
+            <div class="flex flex-col text-third-color text-xs lg:text-base font-medium gap-2">
+              <span class="countdown text-secondary-color text-2xl md:text-4xl lg:text-5xl font-extrabold">
+                <span style="--value:25;"></span>
+              </span>
+              Minutes
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 md:mt-2 lg:mt-3 text-third-color">
+              <path fill-rule="evenodd"
+                d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                clip-rule="evenodd" />
+            </svg>
+            <div class="flex flex-col text-third-color text-xs lg:text-base font-medium gap-2">
+              <span class="countdown text-secondary-color text-2xl md:text-4xl lg:text-5xl font-extrabold">
+                <span style="--value:08;"></span>
+              </span>
+              Seconds
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
 
   <!-- ===================== Footer Section =============================== -->
 
