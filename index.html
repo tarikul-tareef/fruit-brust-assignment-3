@@ -46,7 +46,7 @@
 </head>
 
 <body class="font-lato">
-  <!-- ============================= Header Section ========================= -->
+  <!-- ============================= Header Section Start ========================= -->
   <header class="max-w-[1440px] mx-auto px-5 lg:px-0">
     <!-- Navbar Section -->
     <nav class="md:bg-primary-color rounded-full md:px-12">
@@ -97,7 +97,7 @@
     </nav>
 
     <!-- Banner Section -->
-    <section class="my-14">
+    <section class="mt-14 mb-5 md:mb-0">
       <div class="carousel w-full bg-black rounded-lg ">
 
         <!-- Slide-1 -->
@@ -167,12 +167,22 @@
           </div>
         </div>
       </div>
+      <div class="hidden md:block text-secondary-color text-xl font-medium">
+        <div
+          class="grid grid-cols-3 md:grid-cols-5 md:max-w-2xl  lg:max-w-5xl mx-auto md:gap-10  lg:gap-20 bg-white shadow-md rounded-lg md:px-10 lg:px-16 md:py-8 lg:py-12  relative md:bottom-16 lg:bottom-28 text-center">
+          <div class="flex flex-col items-center"><img src="images/fruit1.png" alt="">Grape</div>
+          <div class="flex flex-col items-center"><img src="images/fruit2.png" alt="">Orange</div>
+          <div class="flex flex-col items-center"><img src="images/fruit3.png" alt="">Mango</div>
+          <div class="flex flex-col items-center"><img src="images/fruit4.png" alt="">Strawberry</div>
+          <div class="flex flex-col items-center"><img src="images/fruit5.png" alt="">Pomegranate</div>
+        </div>
+      </div>
     </section>
   </header>
-  <!-- ============================= Main Section ========================== -->
+  <!-- ============================= Main Section Start ========================== -->
   <main class="max-w-[1440px] mx-auto px-5 lg:px-0">
 
-    <!-- Deal Of the day section -->
+    <!-- ----------------- Deal Of the day Section Start -------------------------- -->
     <section class="text-center space-y-12">
       <!-- Deal of the day Headings -->
       <div
@@ -180,11 +190,8 @@
         <!-- heading left -->
         <div class="flex-1 space-y-2 md:space-y-4 lg:space-y-6 text-center lg:text-left">
           <h2 class="text-secondary-color text-xl md:text-3xl lg:text-5xl font-extrabold">Deal of the day</h2>
-          <p class="text-third-color text-sm md:text-base font-medium  lg:max-w-full">Contrary to popular
-            belief, is not
-            simply
-            random text. It
-            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <p class="text-third-color text-sm md:text-base font-medium  lg:max-w-full">Today's special offer: 50% off on
+            ripe mangoes and 20% off on Orange.!</p>
         </div>
         <!-- heading right -->
         <div class="flex-1">
@@ -517,16 +524,16 @@
         All</button>
     </section>
 
-    <!-- Team Section Start -->
-    <section>
+    <!-- --------------------- Team Section Start --------------------------- -->
+    <section class="mt-6 md:mt-16 lg:mt-28 ">
       <div class="hero min-h-[690px] bg-third-color team-bg-img text-white">
         <div class="hero-overlay opacity-60"></div>
         <div class="hero-content text-center text-neutral-content flex-col items-center">
           <div class="max-w-xl ">
-            <h1 class="mb-5 text-3xl md:text-4xl lg:text-5xl font-extrabold">Meet the team section</h1>
+            <h1 class="mb-5 text-3xl md:text-4xl lg:text-5xl font-extrabold">Meet the team</h1>
             <p class="mb-5 text-base font-medium">
-              Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
-              literature from 45 BC, making it over 2000 years old.
+              We have dedicated team and members to do collect and supply our products and give the best services for
+              our customer.
             </p>
           </div>
 
@@ -804,11 +811,113 @@
       </div>
     </section>
 
+    <!-- --------------------- Why Choose Us Section Start --------------------------- -->
+    <section class="lg:my-28 md:my-16 my-6">
+      <!-- Choose Us section Heading -->
+      <div class="max-w-xl text-center mx-auto mb-12">
+        <h2 class="mb-5 text-secondary-color text-3xl md:text-4xl lg:text-5xl font-extrabold">Why Choose Us</h2>
+        <p class="mb-5 text-base font-medium text-third-color">
+          We collect the fresh and organic fruits for our customer form reliable sources. You can order us online and we
+          deliver the fruits with quick time all over Bangladesh.
+        </p>
+      </div>
+      <!-- Choose us section content -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
 
+        <!-- features content-left  -->
+        <div class="flex flex-col gap-y-12 order-2 lg:order-1">
+          <!-- feature item-1 -->
+          <div class="flex flex-col lg:flex-row items-center lg:items-start gap-6 text-center lg:text-left">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/group-chat.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-start">
+              <h4 class="text-2xl text-secondary-color font-extrabold">Dedicated Team</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">Our Professional dedicated team are always work for
+                best
+                for our customer.</p>
+            </div>
+          </div>
+          <!-- feature item-2 -->
+          <div class="flex flex-col lg:flex-row items-center lg:items-start  gap-6 text-center lg:text-left">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/fresh-fruit.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-start">
+              <h4 class="text-2xl text-secondary-color font-extrabold">Fresh is Best</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">Professional employees are there for you to pick the
+                most
+                amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <!-- feature item-3 -->
+          <div class="flex flex-col lg:flex-row items-center lg:items-start  gap-6 text-center lg:text-left">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/gift.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-start">
+              <h4 class="text-2xl text-secondary-color font-extrabold">Gift Certificates</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">We have some amazing gift card offer system for our
+                regular and best purchasing customer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- feature content-center  -->
+        <div class="order-1 lg:order-2">
+          <img class="h-full w-full" src="./images/whychoose1.png" alt="">
+        </div>
+
+        <!-- feature Content Right -->
+        <div class="flex flex-col gap-y-12 order-3 lg:order-3">
+          <!-- feature item-4 -->
+          <div class="flex flex-col gap-6 lg:flex-row-reverse items-center lg:items-start text-center lg:text-right">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/fruit-supplier.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-end">
+              <h4 class="text-2xl text-secondary-color font-extrabold">Integrated Supplier</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">Your trusted source for a variety of fresh fruits, all
+                in one place.</p>
+            </div>
+          </div>
+          <!-- feature item-5 -->
+          <div class="flex flex-col gap-6 lg:flex-row-reverse items-center lg:items-start text-center lg:text-right">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/Sustainable.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-end">
+              <h4 class="text-2xl text-secondary-color font-extrabold">Sustainable Practice</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">Selling fruits sustainably to protect our environment
+                and future generations.</p>
+            </div>
+          </div>
+          <!-- feature item-6 -->
+          <div class="flex flex-col gap-6 lg:flex-row-reverse items-center lg:items-start text-center lg:text-right">
+            <div class="min-w-[64px]">
+              <img src="./images/icons/welfare.png" alt="">
+            </div>
+            <div class="flex flex-col space-y-4 items-center lg:items-end">
+              <h4 class="text-2xl text-secondary-color font-extrabold">The Benefits Only</h4>
+              <hr class="w-32 border-1 border-solid border-black">
+              <p class=" text-base text-third-color font-medium">Choose our fruits for a healthier you and a greener
+                planet. Our fruits are cost effective and doorstep service available.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
   </main>
 
-  <!-- ===================== Footer Section =============================== -->
-
+  <!-- ===================== Footer Section Start =============================== -->
   <footer
     class="footer footer-center py-9 md:py-16  lg:py-32 bg-secondary-color text-white gap-y-6 md:gap-y-10 lg:gap-y-16">
     <div>
